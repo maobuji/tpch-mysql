@@ -22,7 +22,9 @@ JavaExecuter:一个使用java制作的sql查询执行工具(未完成)<br>
 
 使用说明
 ----
-提供了test-tools目录，增加了一些测试脚本,所有的测试脚本统一使用config配置文件进行参数配置
+提供了test-tools目录，增加了一些测试脚本,所有的测试脚本统一使用config配置文件进行参数配置<br>
+
+在mysql下测试需要设置mysql库表名不区分大小写lower_case_tables_name = 1<br>
 
 * config.properties
 ````
